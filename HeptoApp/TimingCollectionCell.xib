@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TimingCollectionCell" id="gTV-IL-0wX" customClass="TimingCollectionCell" customModule="HeptoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="235" height="52"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="235" height="52"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dCX-Yw-Ep4">
+                        <rect key="frame" x="0.0" y="0.0" width="235" height="52"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9TP-G7-Smg" customClass="CustomView" customModule="HeptoApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="94" height="52"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start at" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9a-rr-uVC">
+                                        <rect key="frame" x="5" y="3" width="84" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="12" id="rzX-Fh-ujx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00 AM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6W-gT-QFy">
+                                        <rect key="frame" x="5" y="20" width="61.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dropdown" translatesAutoresizingMaskIntoConstraints="NO" id="RQY-IF-1BD">
+                                        <rect key="frame" x="71.5" y="21" width="15" height="10"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="fCJ-3F-QxT"/>
+                                            <constraint firstAttribute="height" constant="10" id="fFX-rb-nNw"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffm-Tw-i0D">
+                                        <rect key="frame" x="66.5" y="0.0" width="27.5" height="52"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="B6W-gT-QFy" firstAttribute="top" secondItem="e9a-rr-uVC" secondAttribute="bottom" constant="5" id="1ij-72-7Zu"/>
+                                    <constraint firstItem="RQY-IF-1BD" firstAttribute="leading" secondItem="B6W-gT-QFy" secondAttribute="trailing" constant="5" id="7To-4d-Sx5"/>
+                                    <constraint firstItem="e9a-rr-uVC" firstAttribute="top" secondItem="9TP-G7-Smg" secondAttribute="top" constant="3" id="BEy-vr-kC4"/>
+                                    <constraint firstItem="ffm-Tw-i0D" firstAttribute="top" secondItem="9TP-G7-Smg" secondAttribute="top" id="Cwz-7u-gJf"/>
+                                    <constraint firstItem="B6W-gT-QFy" firstAttribute="leading" secondItem="9TP-G7-Smg" secondAttribute="leading" constant="5" id="K38-pv-LD4"/>
+                                    <constraint firstAttribute="trailing" secondItem="ffm-Tw-i0D" secondAttribute="trailing" id="WRo-t3-dIc"/>
+                                    <constraint firstAttribute="trailing" secondItem="RQY-IF-1BD" secondAttribute="trailing" constant="7.5" id="WtE-Bh-kCB"/>
+                                    <constraint firstAttribute="bottom" secondItem="ffm-Tw-i0D" secondAttribute="bottom" id="bA6-sv-Xeq"/>
+                                    <constraint firstAttribute="trailing" secondItem="e9a-rr-uVC" secondAttribute="trailing" constant="5" id="bUi-nZ-dW2"/>
+                                    <constraint firstItem="ffm-Tw-i0D" firstAttribute="leading" secondItem="B6W-gT-QFy" secondAttribute="trailing" id="fFw-CU-8Wc"/>
+                                    <constraint firstItem="e9a-rr-uVC" firstAttribute="leading" secondItem="9TP-G7-Smg" secondAttribute="leading" constant="5" id="ucU-zf-Jwt"/>
+                                    <constraint firstAttribute="bottom" secondItem="B6W-gT-QFy" secondAttribute="bottom" constant="2" id="w5h-9w-Abu"/>
+                                    <constraint firstItem="RQY-IF-1BD" firstAttribute="centerY" secondItem="9TP-G7-Smg" secondAttribute="centerY" id="yNm-Ju-iKa"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="Navigation"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H8L-yy-4eO" customClass="CustomView" customModule="HeptoApp" customModuleProvider="target">
+                                <rect key="frame" x="104" y="0.0" width="93.5" height="52"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End at" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSw-87-jRz">
+                                        <rect key="frame" x="5" y="3" width="83.5" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="12" id="08M-9Z-Cx8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:00 AM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzi-Rn-zR4">
+                                        <rect key="frame" x="5" y="20" width="58.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dropdown" translatesAutoresizingMaskIntoConstraints="NO" id="EJE-nn-Rcg">
+                                        <rect key="frame" x="71" y="21" width="15" height="10"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="Jje-cA-pYl"/>
+                                            <constraint firstAttribute="height" constant="10" id="aNK-Ix-r4J"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hc-TP-JZQ">
+                                        <rect key="frame" x="63.5" y="0.0" width="30" height="52"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="3hc-TP-JZQ" firstAttribute="leading" secondItem="qzi-Rn-zR4" secondAttribute="trailing" id="1eH-bR-cCb"/>
+                                    <constraint firstAttribute="trailing" secondItem="3hc-TP-JZQ" secondAttribute="trailing" id="7FJ-MM-3Tz"/>
+                                    <constraint firstItem="qzi-Rn-zR4" firstAttribute="top" secondItem="zSw-87-jRz" secondAttribute="bottom" constant="5" id="Fxw-SP-2fg"/>
+                                    <constraint firstAttribute="trailing" secondItem="zSw-87-jRz" secondAttribute="trailing" constant="5" id="P1a-9X-Fcm"/>
+                                    <constraint firstItem="zSw-87-jRz" firstAttribute="leading" secondItem="H8L-yy-4eO" secondAttribute="leading" constant="5" id="dO0-vt-Tak"/>
+                                    <constraint firstItem="zSw-87-jRz" firstAttribute="top" secondItem="H8L-yy-4eO" secondAttribute="top" constant="3" id="dm7-pB-Y4c"/>
+                                    <constraint firstAttribute="bottom" secondItem="3hc-TP-JZQ" secondAttribute="bottom" id="eUM-BH-Ki8"/>
+                                    <constraint firstItem="qzi-Rn-zR4" firstAttribute="leading" secondItem="H8L-yy-4eO" secondAttribute="leading" constant="5" id="eZa-vO-lif"/>
+                                    <constraint firstItem="3hc-TP-JZQ" firstAttribute="top" secondItem="H8L-yy-4eO" secondAttribute="top" id="pUo-dJ-Cag"/>
+                                    <constraint firstItem="EJE-nn-Rcg" firstAttribute="centerY" secondItem="H8L-yy-4eO" secondAttribute="centerY" id="qA1-4Y-2GU"/>
+                                    <constraint firstAttribute="trailing" secondItem="EJE-nn-Rcg" secondAttribute="trailing" constant="7.5" id="ufi-sy-cHb"/>
+                                    <constraint firstAttribute="bottom" secondItem="qzi-Rn-zR4" secondAttribute="bottom" constant="2" id="zvj-Q4-iAu"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="Navigation"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j99-fP-4TX" customClass="CustomView" customModule="HeptoApp" customModuleProvider="target">
+                                <rect key="frame" x="205" y="13.5" width="25" height="25"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="EpN-Qo-6r3">
+                                        <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gk7-Vp-fcn">
+                                        <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="EpN-Qo-6r3" firstAttribute="top" secondItem="j99-fP-4TX" secondAttribute="top" id="37e-1m-Ell"/>
+                                    <constraint firstAttribute="bottom" secondItem="gk7-Vp-fcn" secondAttribute="bottom" id="3qB-lW-6wZ"/>
+                                    <constraint firstItem="EpN-Qo-6r3" firstAttribute="leading" secondItem="j99-fP-4TX" secondAttribute="leading" id="4Nw-ev-XZP"/>
+                                    <constraint firstItem="gk7-Vp-fcn" firstAttribute="leading" secondItem="j99-fP-4TX" secondAttribute="leading" id="NYj-Rf-kgF"/>
+                                    <constraint firstAttribute="trailing" secondItem="gk7-Vp-fcn" secondAttribute="trailing" id="ZhU-4i-JEE"/>
+                                    <constraint firstAttribute="bottom" secondItem="EpN-Qo-6r3" secondAttribute="bottom" id="cO3-Nk-Ncl"/>
+                                    <constraint firstAttribute="trailing" secondItem="EpN-Qo-6r3" secondAttribute="trailing" id="eBF-G4-Ohs"/>
+                                    <constraint firstAttribute="width" constant="25" id="ibA-Qi-RzN"/>
+                                    <constraint firstAttribute="height" constant="25" id="pbb-Gx-Imu"/>
+                                    <constraint firstItem="gk7-Vp-fcn" firstAttribute="top" secondItem="j99-fP-4TX" secondAttribute="top" id="zkv-oS-1wd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="H8L-yy-4eO" firstAttribute="leading" secondItem="9TP-G7-Smg" secondAttribute="trailing" constant="10" id="5NH-gg-2tH"/>
+                            <constraint firstAttribute="bottom" secondItem="9TP-G7-Smg" secondAttribute="bottom" id="NQJ-0i-A5A"/>
+                            <constraint firstItem="9TP-G7-Smg" firstAttribute="leading" secondItem="dCX-Yw-Ep4" secondAttribute="leading" id="R7t-oe-aqS"/>
+                            <constraint firstItem="H8L-yy-4eO" firstAttribute="top" secondItem="dCX-Yw-Ep4" secondAttribute="top" id="aUa-fi-1HA"/>
+                            <constraint firstItem="H8L-yy-4eO" firstAttribute="width" secondItem="9TP-G7-Smg" secondAttribute="width" id="g9E-84-FQ0"/>
+                            <constraint firstAttribute="trailing" secondItem="j99-fP-4TX" secondAttribute="trailing" constant="5" id="h9K-oy-PJk"/>
+                            <constraint firstItem="j99-fP-4TX" firstAttribute="centerY" secondItem="dCX-Yw-Ep4" secondAttribute="centerY" id="rPQ-KG-vb5"/>
+                            <constraint firstItem="9TP-G7-Smg" firstAttribute="top" secondItem="dCX-Yw-Ep4" secondAttribute="top" id="rei-76-lUV"/>
+                            <constraint firstAttribute="bottom" secondItem="H8L-yy-4eO" secondAttribute="bottom" id="yeP-pd-F0z"/>
+                            <constraint firstItem="j99-fP-4TX" firstAttribute="leading" secondItem="H8L-yy-4eO" secondAttribute="trailing" constant="7.5" id="zlp-VY-5LA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="dCX-Yw-Ep4" secondAttribute="bottom" id="OwV-Zf-dnv"/>
+                <constraint firstItem="dCX-Yw-Ep4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="j5X-s9-bYb"/>
+                <constraint firstItem="dCX-Yw-Ep4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="kFs-ql-wPh"/>
+                <constraint firstAttribute="trailing" secondItem="dCX-Yw-Ep4" secondAttribute="trailing" id="s1l-fE-UHj"/>
+            </constraints>
+            <size key="customSize" width="235" height="52"/>
+            <connections>
+                <outlet property="add_btn" destination="gk7-Vp-fcn" id="T1o-kM-yPM"/>
+                <outlet property="add_img" destination="EpN-Qo-6r3" id="kUR-J5-mcb"/>
+                <outlet property="drop1_btn" destination="ffm-Tw-i0D" id="dVn-8K-Dlw"/>
+                <outlet property="drop2_btn" destination="3hc-TP-JZQ" id="KqB-6R-3qK"/>
+                <outlet property="end_time_lbl" destination="qzi-Rn-zR4" id="ILb-BC-Ltp"/>
+                <outlet property="start_time_lbl" destination="B6W-gT-QFy" id="bEI-o9-emM"/>
+                <outlet property="start_view" destination="9TP-G7-Smg" id="hGf-Jm-Q6H"/>
+            </connections>
+            <point key="canvasLocation" x="271.73913043478262" y="84.375"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Dropdown" width="512" height="512"/>
+        <image name="Plus" width="512" height="512"/>
+        <namedColor name="Navigation">
+            <color red="0.22352941176470589" green="0.84705882352941175" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

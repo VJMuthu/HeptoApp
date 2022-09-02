@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "electric-car-charging-at-charger-service-station-vector-17498117-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

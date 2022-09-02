@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "shopping-cart-girl-ordering-food-via-mobile-app-tablet-sofa-with-different-food-products-screen-online-grocery-store-flat-vector-illustration-delivery-service-concept-banner_74855-24992-removebg-previ.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

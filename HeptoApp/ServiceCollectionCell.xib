@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ServiceCollectionCell" id="gTV-IL-0wX" customClass="ServiceCollectionCell" customModule="HeptoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="98" height="109"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="98" height="109"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8wy-04-Rce" customClass="CustomView" customModule="HeptoApp" customModuleProvider="target">
+                        <rect key="frame" x="5" y="5" width="88" height="99"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Cab" translatesAutoresizingMaskIntoConstraints="NO" id="3mh-Jd-KZd">
+                                <rect key="frame" x="10" y="10" width="68" height="59"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFp-d9-ZrA">
+                                <rect key="frame" x="5" y="79" width="78" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="15" id="Zwp-pm-VGx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3mh-Jd-KZd" secondAttribute="trailing" constant="10" id="80g-4b-IJw"/>
+                            <constraint firstItem="3mh-Jd-KZd" firstAttribute="leading" secondItem="8wy-04-Rce" secondAttribute="leading" constant="10" id="IeA-cn-mpr"/>
+                            <constraint firstItem="mFp-d9-ZrA" firstAttribute="leading" secondItem="8wy-04-Rce" secondAttribute="leading" constant="5" id="JUr-xf-52E"/>
+                            <constraint firstItem="mFp-d9-ZrA" firstAttribute="top" secondItem="3mh-Jd-KZd" secondAttribute="bottom" constant="10" id="K9C-S2-hQZ"/>
+                            <constraint firstItem="3mh-Jd-KZd" firstAttribute="top" secondItem="8wy-04-Rce" secondAttribute="top" constant="10" id="Txg-lH-xe7"/>
+                            <constraint firstAttribute="trailing" secondItem="mFp-d9-ZrA" secondAttribute="trailing" constant="5" id="ZpK-OP-27w"/>
+                            <constraint firstAttribute="bottom" secondItem="mFp-d9-ZrA" secondAttribute="bottom" constant="5" id="pMp-Q6-3oJ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="8wy-04-Rce" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="6ZS-hS-zsW"/>
+                <constraint firstAttribute="trailing" secondItem="8wy-04-Rce" secondAttribute="trailing" constant="5" id="GLt-kf-FOn"/>
+                <constraint firstAttribute="bottom" secondItem="8wy-04-Rce" secondAttribute="bottom" constant="5" id="GhZ-Kq-K5K"/>
+                <constraint firstItem="8wy-04-Rce" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="oTB-Ga-sEt"/>
+            </constraints>
+            <size key="customSize" width="98" height="109"/>
+            <connections>
+                <outlet property="service_img" destination="3mh-Jd-KZd" id="N1o-WE-Po7"/>
+                <outlet property="service_lbl" destination="mFp-d9-ZrA" id="TFS-W8-l9H"/>
+                <outlet property="shadow_View" destination="8wy-04-Rce" id="DeQ-mA-BKv"/>
+            </connections>
+            <point key="canvasLocation" x="169.56521739130437" y="104.12946428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Cab" width="818" height="305"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

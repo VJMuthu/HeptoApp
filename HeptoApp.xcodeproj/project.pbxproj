@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4299526228B8A9F9007BC6EB /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4299526128B8A9F9007BC6EB /* TrackViewController.swift */; };
+		42FD65C928B7318500EAD33A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65C828B7318500EAD33A /* AppDelegate.swift */; };
+		42FD65CD28B7318500EAD33A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65CC28B7318500EAD33A /* ViewController.swift */; };
+		42FD65D028B7318500EAD33A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FD65CE28B7318500EAD33A /* Main.storyboard */; };
+		42FD65D328B7318500EAD33A /* HeptoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65D128B7318500EAD33A /* HeptoApp.xcdatamodeld */; };
+		42FD65D528B7318700EAD33A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FD65D428B7318700EAD33A /* Assets.xcassets */; };
+		42FD65D828B7318700EAD33A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FD65D628B7318700EAD33A /* LaunchScreen.storyboard */; };
+		42FD65E028B7326900EAD33A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65DF28B7326900EAD33A /* RegisterViewController.swift */; };
+		42FD65E228B732FB00EAD33A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65E128B732FB00EAD33A /* Constants.swift */; };
+		42FD65E428B7334800EAD33A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65E328B7334800EAD33A /* LoginViewController.swift */; };
+		42FD65E628B7339100EAD33A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65E528B7339100EAD33A /* HomeViewController.swift */; };
+		42FD65E828B735DB00EAD33A /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65E728B735DB00EAD33A /* CustomView.swift */; };
+		42FD65EA28B73F9C00EAD33A /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65E928B73F9C00EAD33A /* TabbarController.swift */; };
+		42FD65ED28B7446700EAD33A /* BannerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65EB28B7446700EAD33A /* BannerTableCell.swift */; };
+		42FD65EE28B7446700EAD33A /* BannerTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FD65EC28B7446700EAD33A /* BannerTableCell.xib */; };
+		42FD65F128B7448E00EAD33A /* ServiceTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65EF28B7448E00EAD33A /* ServiceTableCell.swift */; };
+		42FD65F228B7448E00EAD33A /* ServiceTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FD65F028B7448E00EAD33A /* ServiceTableCell.xib */; };
+		42FD65F528B74D8F00EAD33A /* ServiceCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65F328B74D8F00EAD33A /* ServiceCollectionCell.swift */; };
+		42FD65F628B74D8F00EAD33A /* ServiceCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FD65F428B74D8F00EAD33A /* ServiceCollectionCell.xib */; };
+		42FD65F828B758E500EAD33A /* AvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65F728B758E400EAD33A /* AvailabilityViewController.swift */; };
+		42FD65FB28B75A3E00EAD33A /* AvailabilityTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65F928B75A3E00EAD33A /* AvailabilityTableCell.swift */; };
+		42FD65FC28B75A3E00EAD33A /* AvailabilityTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FD65FA28B75A3E00EAD33A /* AvailabilityTableCell.xib */; };
+		42FD65FE28B75BD500EAD33A /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65FD28B75BD500EAD33A /* ActivityModel.swift */; };
+		42FD660028B75C5100EAD33A /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD65FF28B75C5100EAD33A /* ActivityViewModel.swift */; };
+		42FD660328B75ECA00EAD33A /* TimingCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD660128B75ECA00EAD33A /* TimingCollectionCell.swift */; };
+		42FD660428B75ECA00EAD33A /* TimingCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FD660228B75ECA00EAD33A /* TimingCollectionCell.xib */; };
+		42FD660628B77D2B00EAD33A /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD660528B77D2B00EAD33A /* ServiceModel.swift */; };
+		42FD660828B77D9200EAD33A /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD660728B77D9200EAD33A /* ServiceViewModel.swift */; };
+		42FD660A28B797A400EAD33A /* DropdownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FD660928B797A400EAD33A /* DropdownView.xib */; };
+		42FD660C28B79CB800EAD33A /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD660B28B79CB800EAD33A /* DropdownView.swift */; };
+		43E6635C1574E5146447C759 /* Pods_HeptoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C506986F0115268866981C /* Pods_HeptoApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2233588A8D9E7491DC848368 /* Pods-HeptoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeptoApp.release.xcconfig"; path = "Target Support Files/Pods-HeptoApp/Pods-HeptoApp.release.xcconfig"; sourceTree = "<group>"; };
+		4299526128B8A9F9007BC6EB /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		42FD65C528B7318500EAD33A /* HeptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FD65C828B7318500EAD33A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42FD65CC28B7318500EAD33A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42FD65CF28B7318500EAD33A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42FD65D228B7318500EAD33A /* HeptoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeptoApp.xcdatamodel; sourceTree = "<group>"; };
+		42FD65D428B7318700EAD33A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42FD65D728B7318700EAD33A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42FD65D928B7318700EAD33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FD65DF28B7326900EAD33A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		42FD65E128B732FB00EAD33A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		42FD65E328B7334800EAD33A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		42FD65E528B7339100EAD33A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		42FD65E728B735DB00EAD33A /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		42FD65E928B73F9C00EAD33A /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		42FD65EB28B7446700EAD33A /* BannerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableCell.swift; sourceTree = "<group>"; };
+		42FD65EC28B7446700EAD33A /* BannerTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerTableCell.xib; sourceTree = "<group>"; };
+		42FD65EF28B7448E00EAD33A /* ServiceTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTableCell.swift; sourceTree = "<group>"; };
+		42FD65F028B7448E00EAD33A /* ServiceTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceTableCell.xib; sourceTree = "<group>"; };
+		42FD65F328B74D8F00EAD33A /* ServiceCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCollectionCell.swift; sourceTree = "<group>"; };
+		42FD65F428B74D8F00EAD33A /* ServiceCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceCollectionCell.xib; sourceTree = "<group>"; };
+		42FD65F728B758E400EAD33A /* AvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityViewController.swift; sourceTree = "<group>"; };
+		42FD65F928B75A3E00EAD33A /* AvailabilityTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityTableCell.swift; sourceTree = "<group>"; };
+		42FD65FA28B75A3E00EAD33A /* AvailabilityTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvailabilityTableCell.xib; sourceTree = "<group>"; };
+		42FD65FD28B75BD500EAD33A /* ActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
+		42FD65FF28B75C5100EAD33A /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		42FD660128B75ECA00EAD33A /* TimingCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingCollectionCell.swift; sourceTree = "<group>"; };
+		42FD660228B75ECA00EAD33A /* TimingCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimingCollectionCell.xib; sourceTree = "<group>"; };
+		42FD660528B77D2B00EAD33A /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		42FD660728B77D9200EAD33A /* ServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
+		42FD660928B797A400EAD33A /* DropdownView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropdownView.xib; sourceTree = "<group>"; };
+		42FD660B28B79CB800EAD33A /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
+		5D45E63396F0B7874709A0EA /* Pods-HeptoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeptoApp.debug.xcconfig"; path = "Target Support Files/Pods-HeptoApp/Pods-HeptoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		71C506986F0115268866981C /* Pods_HeptoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeptoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42FD65C228B7318500EAD33A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E6635C1574E5146447C759 /* Pods_HeptoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C8499A44AEBE103522034DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D45E63396F0B7874709A0EA /* Pods-HeptoApp.debug.xcconfig */,
+				2233588A8D9E7491DC848368 /* Pods-HeptoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4299526328B8AC43007BC6EB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				42FD65CC28B7318500EAD33A /* ViewController.swift */,
+				42FD65E328B7334800EAD33A /* LoginViewController.swift */,
+				42FD65DF28B7326900EAD33A /* RegisterViewController.swift */,
+				42FD65E528B7339100EAD33A /* HomeViewController.swift */,
+				42FD65F728B758E400EAD33A /* AvailabilityViewController.swift */,
+				4299526128B8A9F9007BC6EB /* TrackViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4299526428B8AC6C007BC6EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42FD65FD28B75BD500EAD33A /* ActivityModel.swift */,
+				42FD660528B77D2B00EAD33A /* ServiceModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4299526528B8ACA1007BC6EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				42FD65FF28B75C5100EAD33A /* ActivityViewModel.swift */,
+				42FD660728B77D9200EAD33A /* ServiceViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		4299526628B8ACDC007BC6EB /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				42FD65EB28B7446700EAD33A /* BannerTableCell.swift */,
+				42FD65EC28B7446700EAD33A /* BannerTableCell.xib */,
+				42FD65EF28B7448E00EAD33A /* ServiceTableCell.swift */,
+				42FD65F028B7448E00EAD33A /* ServiceTableCell.xib */,
+				42FD65F928B75A3E00EAD33A /* AvailabilityTableCell.swift */,
+				42FD65FA28B75A3E00EAD33A /* AvailabilityTableCell.xib */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		4299526728B8AD01007BC6EB /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				42FD65F328B74D8F00EAD33A /* ServiceCollectionCell.swift */,
+				42FD65F428B74D8F00EAD33A /* ServiceCollectionCell.xib */,
+				42FD660128B75ECA00EAD33A /* TimingCollectionCell.swift */,
+				42FD660228B75ECA00EAD33A /* TimingCollectionCell.xib */,
+			);
+			name = CollectionCell;
+			sourceTree = "<group>";
+		};
+		42FD65BC28B7318500EAD33A = {
+			isa = PBXGroup;
+			children = (
+				42FD65C728B7318500EAD33A /* HeptoApp */,
+				42FD65C628B7318500EAD33A /* Products */,
+				2C8499A44AEBE103522034DD /* Pods */,
+				8B1642572D38AF9FBDF95099 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42FD65C628B7318500EAD33A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FD65C528B7318500EAD33A /* HeptoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FD65C728B7318500EAD33A /* HeptoApp */ = {
+			isa = PBXGroup;
+			children = (
+				42FD65C828B7318500EAD33A /* AppDelegate.swift */,
+				4299526328B8AC43007BC6EB /* Controllers */,
+				4299526428B8AC6C007BC6EB /* Model */,
+				4299526528B8ACA1007BC6EB /* ViewModel */,
+				4299526628B8ACDC007BC6EB /* TableCell */,
+				4299526728B8AD01007BC6EB /* CollectionCell */,
+				42FD65E928B73F9C00EAD33A /* TabbarController.swift */,
+				42FD660928B797A400EAD33A /* DropdownView.xib */,
+				42FD660B28B79CB800EAD33A /* DropdownView.swift */,
+				42FD65E128B732FB00EAD33A /* Constants.swift */,
+				42FD65E728B735DB00EAD33A /* CustomView.swift */,
+				42FD65CE28B7318500EAD33A /* Main.storyboard */,
+				42FD65D428B7318700EAD33A /* Assets.xcassets */,
+				42FD65D628B7318700EAD33A /* LaunchScreen.storyboard */,
+				42FD65D928B7318700EAD33A /* Info.plist */,
+				42FD65D128B7318500EAD33A /* HeptoApp.xcdatamodeld */,
+			);
+			path = HeptoApp;
+			sourceTree = "<group>";
+		};
+		8B1642572D38AF9FBDF95099 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71C506986F0115268866981C /* Pods_HeptoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42FD65C428B7318500EAD33A /* HeptoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FD65DC28B7318700EAD33A /* Build configuration list for PBXNativeTarget "HeptoApp" */;
+			buildPhases = (
+				18250EBFAA3BAD8BC6051539 /* [CP] Check Pods Manifest.lock */,
+				42FD65C128B7318500EAD33A /* Sources */,
+				42FD65C228B7318500EAD33A /* Frameworks */,
+				42FD65C328B7318500EAD33A /* Resources */,
+				E27428AA7E300DA3934E39AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeptoApp;
+			productName = HeptoApp;
+			productReference = 42FD65C528B7318500EAD33A /* HeptoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42FD65BD28B7318500EAD33A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					42FD65C428B7318500EAD33A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 42FD65C028B7318500EAD33A /* Build configuration list for PBXProject "HeptoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42FD65BC28B7318500EAD33A;
+			productRefGroup = 42FD65C628B7318500EAD33A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42FD65C428B7318500EAD33A /* HeptoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42FD65C328B7318500EAD33A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FD65F228B7448E00EAD33A /* ServiceTableCell.xib in Resources */,
+				42FD65F628B74D8F00EAD33A /* ServiceCollectionCell.xib in Resources */,
+				42FD660A28B797A400EAD33A /* DropdownView.xib in Resources */,
+				42FD65D828B7318700EAD33A /* LaunchScreen.storyboard in Resources */,
+				42FD65D528B7318700EAD33A /* Assets.xcassets in Resources */,
+				42FD65EE28B7446700EAD33A /* BannerTableCell.xib in Resources */,
+				42FD660428B75ECA00EAD33A /* TimingCollectionCell.xib in Resources */,
+				42FD65FC28B75A3E00EAD33A /* AvailabilityTableCell.xib in Resources */,
+				42FD65D028B7318500EAD33A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18250EBFAA3BAD8BC6051539 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeptoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E27428AA7E300DA3934E39AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeptoApp/Pods-HeptoApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeptoApp/Pods-HeptoApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeptoApp/Pods-HeptoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42FD65C128B7318500EAD33A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FD65E428B7334800EAD33A /* LoginViewController.swift in Sources */,
+				42FD660628B77D2B00EAD33A /* ServiceModel.swift in Sources */,
+				42FD65E828B735DB00EAD33A /* CustomView.swift in Sources */,
+				42FD65ED28B7446700EAD33A /* BannerTableCell.swift in Sources */,
+				42FD65E228B732FB00EAD33A /* Constants.swift in Sources */,
+				42FD660C28B79CB800EAD33A /* DropdownView.swift in Sources */,
+				42FD660328B75ECA00EAD33A /* TimingCollectionCell.swift in Sources */,
+				42FD65CD28B7318500EAD33A /* ViewController.swift in Sources */,
+				42FD65FE28B75BD500EAD33A /* ActivityModel.swift in Sources */,
+				42FD65C928B7318500EAD33A /* AppDelegate.swift in Sources */,
+				42FD65D328B7318500EAD33A /* HeptoApp.xcdatamodeld in Sources */,
+				42FD65FB28B75A3E00EAD33A /* AvailabilityTableCell.swift in Sources */,
+				42FD65F528B74D8F00EAD33A /* ServiceCollectionCell.swift in Sources */,
+				42FD65E628B7339100EAD33A /* HomeViewController.swift in Sources */,
+				42FD660028B75C5100EAD33A /* ActivityViewModel.swift in Sources */,
+				42FD65EA28B73F9C00EAD33A /* TabbarController.swift in Sources */,
+				4299526228B8A9F9007BC6EB /* TrackViewController.swift in Sources */,
+				42FD65F828B758E500EAD33A /* AvailabilityViewController.swift in Sources */,
+				42FD660828B77D9200EAD33A /* ServiceViewModel.swift in Sources */,
+				42FD65E028B7326900EAD33A /* RegisterViewController.swift in Sources */,
+				42FD65F128B7448E00EAD33A /* ServiceTableCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42FD65CE28B7318500EAD33A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FD65CF28B7318500EAD33A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42FD65D628B7318700EAD33A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FD65D728B7318700EAD33A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42FD65DA28B7318700EAD33A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42FD65DB28B7318700EAD33A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42FD65DD28B7318700EAD33A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D45E63396F0B7874709A0EA /* Pods-HeptoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeptoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HeptoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42FD65DE28B7318700EAD33A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2233588A8D9E7491DC848368 /* Pods-HeptoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeptoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HeptoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42FD65C028B7318500EAD33A /* Build configuration list for PBXProject "HeptoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FD65DA28B7318700EAD33A /* Debug */,
+				42FD65DB28B7318700EAD33A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FD65DC28B7318700EAD33A /* Build configuration list for PBXNativeTarget "HeptoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FD65DD28B7318700EAD33A /* Debug */,
+				42FD65DE28B7318700EAD33A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42FD65D128B7318500EAD33A /* HeptoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42FD65D228B7318500EAD33A /* HeptoApp.xcdatamodel */,
+			);
+			currentVersion = 42FD65D228B7318500EAD33A /* HeptoApp.xcdatamodel */;
+			path = HeptoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42FD65BD28B7318500EAD33A /* Project object */;
+}
